@@ -6,7 +6,7 @@ import { Progress } from "@/components/ui/progress";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 
-const API_URL = "https://node-js-server-v19x.onrender.com/predict";
+const API_URL = " https://volitionally-semibiological-ambrose.ngrok-free.dev ";
 
 type Prediction = { class: string; confidence: number };
 
