@@ -6,7 +6,7 @@ import { Progress } from "@/components/ui/progress";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 
-const API_URL = "https://volitionally-semibiological-ambrose.ngrok-free.dev/predict";
+const API_URL = "http://127.0.0.1:3000/predict";
 
 type Prediction = { class: string; confidence: number };
 
