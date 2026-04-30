@@ -6,7 +6,7 @@ import { Progress } from "@/components/ui/progress";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 
-const API_URL = "http://127.0.0.1:3000/predict";
+const API_URL = "https://node-js-server-v19x.onrender.com/predict";
 
 type Prediction = { class: string; confidence: number };
 
