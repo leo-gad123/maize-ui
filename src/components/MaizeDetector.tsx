@@ -6,7 +6,7 @@ import { Progress } from "@/components/ui/progress";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 
-const API_URL = " https://volitionally-semibiological-ambrose.ngrok-free.dev/predict";
+const API_URL = "https://model-server-five.vercel.app/predict";
 
 type Prediction = { class: string; confidence: number };
 
